@@ -6,27 +6,6 @@ mkdir /Volumes/github; cd /Volumes/github
 ```
 
 -----------------------------------
-
-Make ssh key
-```shell
-#https://help.github.com/articles/generating-an-ssh-key/
-
-ls -al ~/.ssh
-ssh-keygen -t rsa -b 4096 -C "martincarroll87@gmail.com"
-# saved to /Volumes/github/id_rsa
-
-eval "$(ssh-agent -s)"
-ssh-add /Volumes/github/id_rsa
-
-# manually add to github
-pbcopy < ~/.ssh/id_rsa.pub
-#https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
-
-ssh -T git@github.com
-```
-
------------------------------------
-
 Make dummy directory
 ```shell
 mkdir demo; cd demo
@@ -60,8 +39,7 @@ git push -u origin master
 ```
 
 -----------------------------------
-
-# remove repository
+remove repository
 
 ```shell
 rm -rf ./.git*
@@ -71,7 +49,7 @@ git remote rm origin
 ```
 
 -----------------------------------
-# update repo
+update repo
 
 ```shell
 echo "# ... more info about this or that ..." >> README.md
@@ -81,3 +59,25 @@ git push origin master
 ```
 
 -----------------------------------
+# other
+
+Make ssh key
+```shell
+#https://help.github.com/articles/generating-an-ssh-key/
+
+ls -al ~/.ssh
+ssh-keygen -t rsa -b 4096 -C "martincarroll87@gmail.com"
+# saved to /Volumes/github/id_rsa
+
+eval "$(ssh-agent -s)"
+ssh-add /Volumes/github/id_rsa
+
+# manually add to github
+pbcopy < ~/.ssh/id_rsa.pub
+#https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+
+ssh -T git@github.com
+```
+
+-----------------------------------
+
