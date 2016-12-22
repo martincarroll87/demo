@@ -1,8 +1,9 @@
 How I made this page appear
------------------------------------
 
-Make dummy directory
+-----------------------------------
+add new repository
 ```shell
+# make a dummy directory
 mkdir /Volumes/github; cd /Volumes/github
 mkdir demo; cd demo
 
@@ -26,26 +27,27 @@ git remote add origin https://github.com/martincarroll87/demo.git
 #git remote set-url origin git://github.com/martincarroll87/demo.git
 #git remote set-url origin https://github.com/martincarroll87/demo.git
 git push origin master
+```
 
-# ------------------------------------
-# push an existing repository 
+===================================
+push an existing repository 
 
+```shell
 git remote add origin https://github.com/martincarroll87/demo.git
 git push -u origin master
 ```
 
------------------------------------
+===================================
 remove repository
 
 ```shell
 rm -rf ./.git*
 rm -rf ./*
-
 git remote rm origin
 ```
 
------------------------------------
-update repo
+===================================
+update repository
 
 ```shell
 echo "# ... more info about this or that ..." >> README.md
