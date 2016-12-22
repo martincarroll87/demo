@@ -1,7 +1,9 @@
 How I made this page appear
-
 ===================================
+
+```shell
 mkdir /Volumes/github; cd /Volumes/github
+```
 
 -----------------------------------
 https://help.github.com/articles/generating-an-ssh-key/
