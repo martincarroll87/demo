@@ -1,4 +1,5 @@
-#How I made this page appear
+##How I made this page appear
+-----------------------------------
 > obviously the README.md has been expanded vs the one line in the example, but the principles are the same
 
 ===================================
