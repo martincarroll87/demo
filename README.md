@@ -63,7 +63,7 @@ git push origin master
 #https://help.github.com/articles/generating-an-ssh-key/
 
 ls -al ~/.ssh
-ssh-keygen -t rsa -b 4096 -C "martincarroll87@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "yourGithub@Email.com"
 # saved to /Volumes/github/id_rsa
 
 eval "$(ssh-agent -s)"
