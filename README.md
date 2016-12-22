@@ -1,10 +1,10 @@
 How I made this page appear
 
-# --------------------------------------------------------------------------
-# mkdir /Volumes/github; cd /Volumes/github
+===================================
+mkdir /Volumes/github; cd /Volumes/github
 
-# --------------------------------------------------------------------------
-#https://help.github.com/articles/generating-an-ssh-key/
+-----------------------------------
+https://help.github.com/articles/generating-an-ssh-key/
 
 ```shell
 ls -al ~/.ssh
@@ -21,7 +21,7 @@ pbcopy < ~/.ssh/id_rsa.pub
 ssh -T git@github.com
 ```
 
-# --------------------------------------------------------------------------
+-----------------------------------
 
 ```shell
 mkdir demo; cd demo
@@ -54,7 +54,7 @@ git remote add origin https://github.com/martincarroll87/demo.git
 git push -u origin master
 ```
 
-# --------------------------------------------------------------------------
+-----------------------------------
 # remove repository #
 
 rm -rf ./.git*
