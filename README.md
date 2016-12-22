@@ -56,26 +56,4 @@ git push origin master
 ```
 
 -----------------------------------
-# other
-
-###make ssh key
-```shell
-#https://help.github.com/articles/generating-an-ssh-key/
-
-ls -al ~/.ssh
-ssh-keygen -t rsa -b 4096 -C "yourGithub@Email.com"
-# saved to /Volumes/github/id_rsa
-
-eval "$(ssh-agent -s)"
-ssh-add /Volumes/github/id_rsa
-
-# manually add to github
-pbcopy < ~/.ssh/id_rsa.pub
-#https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
-
-# verify
-ssh -T git@github.com
-```
-
------------------------------------
 
