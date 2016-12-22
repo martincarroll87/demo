@@ -1,13 +1,9 @@
 How I made this page appear
-===================================
-
-```shell
-mkdir /Volumes/github; cd /Volumes/github
-```
-
 -----------------------------------
+
 Make dummy directory
 ```shell
+mkdir /Volumes/github; cd /Volumes/github
 mkdir demo; cd demo
 
 # add new repository #
