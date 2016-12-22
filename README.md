@@ -1,7 +1,6 @@
 #How I made this page appear
 
------------------------------------
-add new repository
+###add new repository
 ```shell
 # make a dummy directory
 mkdir /Volumes/github; cd /Volumes/github
@@ -30,7 +29,7 @@ git push origin master
 ```
 
 ===================================
-push an existing repository 
+###push an existing repository 
 
 ```shell
 git remote add origin https://github.com/martincarroll87/demo.git
