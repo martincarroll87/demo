@@ -73,6 +73,7 @@ ssh-add /Volumes/github/id_rsa
 pbcopy < ~/.ssh/id_rsa.pub
 #https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
+# verify
 ssh -T git@github.com
 ```
 
