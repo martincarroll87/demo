@@ -2,12 +2,11 @@
 
 ###add new repository
 ```shell
+# !!! must make repository via website first !!! #
+
 # make a dummy directory
 mkdir /Volumes/github; cd /Volumes/github
 mkdir demo; cd demo
-
-# add new repository #
-# !!! must make repository via website first !!! #
 
 # initialize local
 git init
