@@ -1,6 +1,6 @@
 #How I made this page appear
 
-#####add new repository
+###add new repository
 ```shell
 # make a dummy directory
 mkdir /Volumes/github; cd /Volumes/github
@@ -37,7 +37,7 @@ git push -u origin master
 ```
 
 ===================================
-remove repository
+###remove repository
 
 ```shell
 rm -rf ./.git*
@@ -46,7 +46,7 @@ git remote rm origin
 ```
 
 ===================================
-update repository
+###update repository
 
 ```shell
 echo "# ... more info about this or that ..." >> README.md
@@ -58,7 +58,7 @@ git push origin master
 -----------------------------------
 # other
 
-Make ssh key
+###make ssh key
 ```shell
 #https://help.github.com/articles/generating-an-ssh-key/
 
