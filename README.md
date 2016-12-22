@@ -6,9 +6,11 @@ mkdir /Volumes/github; cd /Volumes/github
 ```
 
 -----------------------------------
-https://help.github.com/articles/generating-an-ssh-key/
 
+Make ssh key
 ```shell
+#https://help.github.com/articles/generating-an-ssh-key/
+
 ls -al ~/.ssh
 ssh-keygen -t rsa -b 4096 -C "martincarroll87@gmail.com"
 # saved to /Volumes/github/id_rsa
@@ -25,6 +27,7 @@ ssh -T git@github.com
 
 -----------------------------------
 
+Make dummy directory
 ```shell
 mkdir demo; cd demo
 
@@ -57,52 +60,24 @@ git push -u origin master
 ```
 
 -----------------------------------
-# remove repository #
 
+# remove repository
+
+```shell
 rm -rf ./.git*
 rm -rf ./*
 
 git remote rm origin
+```
 
-
-# --------------------------------------------------------------------------
+-----------------------------------
 # update repo
 
+```shell
 echo "# ... more info about this or that ..." >> README.md
 git add README.md
 git commit -m "second commit"
 git push origin master
+```
 
-
-
-# --------------------------------------------------------------------------
-
-
-
-
-
-
-# --------------------------------------------------------------------------
-
-
-
-
-
-# --------------------------------------------------------------------------
-
-
-
-
-
-
-# --------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
+-----------------------------------
