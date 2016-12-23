@@ -31,7 +31,6 @@ git push origin master
 
 ===================================
 ###push an existing repository 
-
 ```shell
 git remote add origin https://github.com/martincarroll87/demo.git
 git push -u origin master
@@ -39,7 +38,6 @@ git push -u origin master
 
 ===================================
 ###remove repository
-
 ```shell
 rm -rf ./.git*
 rm -rf ./*
@@ -48,7 +46,6 @@ git remote rm origin
 
 ===================================
 ###update repository
-
 ```shell
 echo "# ... more info about this or that ..." >> README.md
 git add README.md
